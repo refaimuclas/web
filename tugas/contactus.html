@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <figure>
+          <img src="images/logo1.png" alt="logo" />
+        </figure>
+        <nav>
+          <ul id="menu-utama">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="article.html">Article</a></li>
+            <li><a href="contactus.html" class="active">Contact Us</a></li>
+          </ul>
+        </nav>
+        <form>
+          <input type="text" name="search" placeholder="search.." />
+        </form>
+      </header>
+      <!--Penutup div "header"-->
+      <div id="form-input">
+        <h1>Contact</h1>
+        <form action="">
+          <section>
+            <label for="nama">Name: </label><br />
+            <input type="text" name="nama" placeholder="Name" />
+          </section>
+          <section>
+            <label for="email">Email: </label><br />
+            <input type="email" name="email" placeholder="example@abc.com" />
+          </section>
+          <section>
+            <label for="website">Website: </label><br />
+            <input
+              type="url"
+              name="website"
+              placeholder="Insert your Website.."
+            />
+          </section>
+          <section>
+            <label for="message">Message: </label><br />
+            <textarea
+              rows="8"
+              cols="41"
+              name="message"
+              form="usrform"
+              placeholder="Leave the message at least 200 character"
+            ></textarea>
+          </section>
+		  <section>
+            <input type="submit" name="submit" value="Submit" />
+			</section>
+			<section>
+			<input type="reset" name="reset" value="Reset" />
+			</section>
+        </form>
+      </div>
+
+      <footer>
+        <p>Desain Web Coba</p>
+      </footer>
+    </div>
+    <!--Penutup div "wrapper"-->
+  </body>
+</html>
